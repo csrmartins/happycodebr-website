@@ -443,15 +443,70 @@ body{
     height: 340px;
 }
 
-.dobra-9-content{
+.dobra-9-title{
+    padding-top: 20px;
     width: 100%;
     text-align: center;
 }
 
-.dobra-9-logo{
-    width: 200px;
+.dobra-9-title h3{
+    font-family: 'Open Sans', sans-serif;
+    font-size: 24px;
+    font-style: italic;
+    color: #414141;
+}
+
+.dobra-9-content{
+    margin: 0;
+    padding: 0;
+    /* background-color: #FBDA71; */
+    width: 100%;
+    height: 140px;
+    /* text-align: center; */
+    display: flex;
+    justify-content: center;
+}
+
+.dobra-9-logo-container{
+    /* background-color: #FBDA71; */
+    width: 250px;
+    height: 140px;
     margin: 50px;
 }
+
+.dobra-9-logo{
+    width: 100%;
+    margin-top: 12.5%;
+}
+
+#pegn{
+    margin-top: -12.5%;
+}
+
+#estadao{
+    margin-top: 0;
+}
+
+.rodape{
+    width: 100%;
+    height: 215px;
+    background-color: #F0F5FF;
+    text-align: center;
+}
+
+.rodape img{
+    height: 100px;
+    margin: 30px;
+}
+
+.rodape p{
+    font-family: 'Open Sans', sans-serif;
+    font-size: 16px;
+    color: #414141; 
+}
+
+
+
 
 
 
