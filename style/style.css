@@ -1,0 +1,463 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;1,700&display=swap');
+@font-face{
+    font-family: 'Don Jose';
+    src: url(fonts/DONJOSE-BLACK.OTF)
+}
+
+body{
+    margin: 0;
+    padding: 0;
+}
+
+.top-bar-green{
+    background-color: #7FD38F;
+    height: 64px;
+    width: 100%;
+}
+
+.top-bar-grey{
+    background-color: #F0F5FF;
+    height: 35px;
+    width: 100%;
+}
+
+.top-bar-green img{
+    height: 80px;
+    padding: 10px;
+}
+
+.top-bar-social-icons{
+    float: right;
+    top: 0;
+}
+
+.top-bar-social-icons img{
+    height: 20px;
+    margin: 10px 5px;
+}
+
+.dobra-1{
+    background-color: #7562AA;
+    width: 100%;
+    height: 700px;
+    text-align: center;
+}
+
+.dobra-1 img{
+    width: 608px;
+}
+
+.dobra-2{
+    height: 700px;
+    width: 100%;
+}
+
+.dobra-2 h2{
+    font-family: 'Open Sans', sans-serif;
+    font-size: 42px;
+    font-style: italic;
+    color: #414141;
+    text-align: center;
+}
+
+.div-cards{
+    display: inline-flex;
+    width: 100%;
+    overflow-x: scroll;
+}
+
+.card{
+    margin: 30px;
+    height: 480px;
+    border-radius: 25px;
+    box-shadow: 0 19.98px 14.27px rgba(0, 0, 0, 0.15);
+}
+
+.card-title{
+    width: 100%;
+}
+
+.card-title h3{
+    font-family: 'Open Sans', sans-serif;
+    font-size: 24px;
+    font-style: italic;
+    text-align: left;
+    color: #7562AA;
+    padding-top: 20px;
+    margin-left: 85px;
+}
+
+#card-title-number{
+    margin: 0 0 0 10px;
+    padding: 0;
+    float: left;
+    font-family: 'Don Jose';
+    font-size: 50px;
+    color:  #7562AA;
+}
+
+.card-body {
+    width: 380px;
+}
+
+.card-text{
+    color: #414141;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 18px;
+    margin-left: 85px;
+    margin-right: 10px;
+    /* font-style: normal; */    
+}
+
+.dobra-3{
+    background-color: #13BCCA;
+}
+
+.dobra-3-row{
+    margin: 0 15%;
+    display: flex;
+}
+
+.dobra-3-left-col{
+    float: left;
+    margin: 50px 25px;
+}
+
+.dobra-3-left-col h2{
+    color: #7562AA;
+    font-family: 'Open Sans', sans-serif;
+    font-style: italic;
+    font-size: 36px;
+}
+
+.dobra-3-left-col p{
+    color: #FFFFFF;
+    font-family: 'Open Sans', sans-serif;
+}
+
+.dobra-3-right-col {
+    float: right;
+    margin: 50px 50px;
+}
+
+.dobra-3-right-col img{
+    width: 420px;
+}
+
+.dobra-4-row{
+   /* background-color: lightgrey; */
+   height: 600px;
+   width: 100%;
+   display: flex;
+}
+
+.dobra-4-left-col{
+    background-color: #FFFFFF;
+    height: 600px;
+    width: 50%;
+    float: left;
+}
+
+.dobra-4-video{
+    margin-top: 20%;
+    margin-left: 15%;
+}
+
+#video-pitch{
+    border: 8px solid #FFFFFF;
+    box-shadow: 0px 5px 5px rgba(68, 68, 68, 0.2);
+}
+
+.dobra-4-right-col{
+    background-color: #FFFFFF;
+    height: 600px;
+    width: 50%;
+    float: right;
+}
+
+.dobra-4-right-col-text{
+    width: 360px;
+    margin-top: 25%;
+    margin-left: 50px;
+}
+
+.dobra-4-right-col-text h3{
+    color: #414141;
+    font-family: 'Open Sans', sans-serif;
+    font-style: italic;
+    font-size: 46px; 
+}
+
+.dobra-5{
+    background-color: #FBDA71;
+    height: 330px;
+    width: 100%;
+    text-align: center;
+}
+
+.dobra-5 img{
+    width: 250px;
+    margin-top: 3%;
+}
+
+.dobra-5 p{
+    color: #7562AA;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 16px;
+    font-weight: 900;
+}
+
+#btn-cursos-rapidos{
+    font-family: 'Open Sans', sans-serif;
+    display: inline-block;
+    width: 295px;
+    height: 45px;
+    line-height: 45px;
+    border-radius: 22.5px;
+    background-color: #7562AA;
+    color: #FFFFFF;
+    text-decoration: none;
+    vertical-align: baseline;
+    margin-top: 10px;
+    margin-bottom: 30px;
+}
+
+.dobra-6{
+    height: 660px;
+    width: 100%;
+}
+
+.dobra-6-left-col{
+    height: 660px;
+    width: 50%;
+    float: left;
+}
+
+.dobra-6-title{
+    width: 255px;
+    height: 127px;
+    margin-left: 35%;
+    margin-top: 25%;
+}
+
+.dobra-6-title h3{
+    font-family: 'Open Sans', sans-serif;
+    font-size: 42px;
+    font-style: italic;
+    color: #414141;
+    text-align: left; 
+}
+
+.dobra-6-text{
+    width: 345px;
+    margin-left: 35%;
+}
+
+.dobra-6-text p{
+    font-family: 'Open Sans', sans-serif;
+    font-size: 23px;
+}
+
+
+
+.dobra-6-right-col{
+    background-color: white;
+    height: 660px;
+    width: 50%;
+    float: right;
+}
+
+.card-seguranca{
+    height: 465px;
+    width: 510px;
+    border-radius: 25px;
+    box-shadow: 0 19.98px 14.27px rgba(0, 0, 0, 0.15);
+    margin: 15%;
+}
+
+.card-seguranca ul{
+    list-style-image: url('../images/list-marker.png');
+    font-family: 'Open Sans', sans-serif;
+    color: #414141;
+    max-width: 400px;
+    max-height: 400px;
+    padding: 50px;
+    margin: 7%;
+}
+
+.card-seguranca li{
+    margin: 15px;
+}
+
+.dobra-7{
+    margin: 0;
+    padding: 0;
+    background-color: #2CB5A0;
+    height: 525px;
+    width: 100%;
+    padding-bottom: 0;
+    margin-bottom: 0;
+}
+
+.dobra-7-text{
+    width: 100%;
+    text-align: center;
+}
+
+.dobra-7-text h3{
+    padding-top: 20px;
+    margin-bottom: 10px;
+    font-family: 'Don Jose';
+    font-size: 50px;
+    color: #FBDA71; 
+}
+
+.dobra-7-text p{
+    color: #FFFFFF;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 18px;
+}
+
+.dobra-7-cards-row{
+    width: 100%;
+    text-align: center;
+    margin-bottom: 0;
+}
+
+.dobra-7-cards-container{
+    /* background-color: lightgrey; */
+    width: 850px;
+    height: 370px;
+    margin-left: 20%;
+    display: flex;
+    justify-content: center;
+    margin-bottom: 0;
+}
+
+.dobra-7-card{
+    background-color: #FFFFFF;
+    width: 250px;
+    height: 100%;
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+    margin: 0 10px;
+}
+
+.dobra-7-card-title{
+    background-color: #7562AA;
+    height: 110px;
+    width: 100%;
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+    text-align: center;
+}
+
+.dobra-7-card-title img {
+    height: 50px;
+    margin: 0;
+    padding: 0;
+    margin-top: 10px;
+}
+
+.dobra-7-card-title h3{
+    margin: 0;
+    padding: 0;
+    font-family: 'Don Jose';
+    font-size: 24px;
+    color: #FBDA71;
+}
+
+.dobra-7-card-content{
+    font-family: 'Open Sans', sans-serif;
+    font-size: 16px;
+    color: #414141;
+}
+
+.dobra-7-card-content ul{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    margin-top: 40px;
+}
+
+.dobra-7-card-content li{
+    margin: 10px;
+}
+
+.dobra-8{
+    margin: 0;
+    padding: 0;
+    background-color: #FFFFFF;
+    height: 630px;
+    width: 100%;
+}
+
+.dobra-8-title{
+    width: 100%;
+    text-align: center
+}
+
+.dobra-8-title h3{
+    color: #414141;
+    font-family: 'Open Sans', sans-serif;
+    font-style: italic;
+    font-size: 46px; 
+}
+
+.dobra-8-content{
+    padding: 50px;
+    width: 100%;
+    overflow-x: scroll;
+    display: flex;
+}
+
+.dobra-8-video-cards{
+    /* background-color: lightgrey; */
+    height: 355px;
+    width: 560px;
+    border-radius: 15px;
+    box-shadow: 0 19.98px 14.27px rgba(0, 0, 0, 0.15);
+    margin: 0 25px;
+}
+
+.dobra-8-video-cards p{
+    margin: 0;
+    padding: 0;
+    color: #414141;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 18px;
+    line-height: 40px;
+    margin-left: 10px;
+}
+
+.depo-video{
+    margin: 0;
+    padding: 0;
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+}
+
+.dobra-9{
+    background-color: #E4E4E4;
+    width: 100%;
+    height: 340px;
+}
+
+.dobra-9-content{
+    width: 100%;
+    text-align: center;
+}
+
+.dobra-9-logo{
+    width: 200px;
+    margin: 50px;
+}
+
+
+
+
+
+
+
+
+
